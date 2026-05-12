@@ -1,5 +1,6 @@
 import os
 import socket
+import time
 from pathlib import Path
 
 from aes_socket_utils import build_data_packet, build_key_packet, encrypt_aes_cbc
@@ -39,6 +40,10 @@ def main() -> None:
     data_packet = build_data_packet(ciphertext)
 
     send_packet(SERVER_IP, KEY_PORT, key_packet)
+    
+    # Nghỉ 0.5s để đợi Receiver chuẩn bị mở xong Data Port
+    time.sleep(0.5) 
+    
     send_packet(SERVER_IP, DATA_PORT, data_packet)
 
     lines = [
