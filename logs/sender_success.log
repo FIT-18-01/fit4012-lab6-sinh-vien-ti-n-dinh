@@ -1,0 +1,12 @@
+[+] Đã tạo AES key và IV.
+[+] Đã gửi key/IV qua kênh khóa.
+[+] Đã gửi ciphertext qua kênh dữ liệu.
+Server: 127.0.0.1
+Key port: 6001
+Data port: 6000
+AES key size: 16 bytes
+Key: 8279b0d5fadd4508b65884548882f187
+IV: bcb335b0a4e9ce94e061d948e90a96c6
+Plaintext length: 35 bytes
+Ciphertext length: 48 bytes
+Ciphertext: 4cd180bd77748b7f6c0a399821cf4a9b9a112007f3ef3b400973a3ad172bb14fa998364f83eb7bcd2a65d0d64c40a7aa

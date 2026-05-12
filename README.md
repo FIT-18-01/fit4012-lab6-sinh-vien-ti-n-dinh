@@ -16,20 +16,20 @@ Lab này kế thừa ý tưởng từ Lab 3 DES Socket, nhưng nâng cấp theo 
 
 ## Team members
 
-- **Thành viên 1**: TODO_MEMBER_1 - MSSV: TODO_MEMBER_1_ID
-- **Thành viên 2**: TODO_MEMBER_2 - MSSV: TODO_MEMBER_2_ID
+- **Thành viên 1**: Đỗ Trung Kiên - MSSV: 1871020344
+- **Thành viên 2**: Nguyễn Việt Cường - MSSV: 1871020114
 
 ## Task division
 
-- **Thành viên 1 phụ trách chính**: TODO_ROLE_MEMBER_1
-- **Thành viên 2 phụ trách chính**: TODO_ROLE_MEMBER_2
-- **Phần làm chung**: TODO_SHARED_WORK
+- **Thành viên 1 phụ trách chính**: Xây dựng module `sender.py`, xử lý mã hóa AES-CBC, tạo key/IV và gửi dữ liệu qua socket.
+- **Thành viên 2 phụ trách chính**: Xây dựng module `receiver.py`, lắng nghe kết nối, nhận dữ liệu, giải mã và ghi log.
+- **Phần làm chung**: Viết các test case tự động, hoàn thiện file Report và Threat Model.
 
 ## Demo roles
 
-- **Demo Sender / kênh khóa / log gửi**: TODO_DEMO_ROLE_1
-- **Demo Receiver / kênh dữ liệu / giải mã**: TODO_DEMO_ROLE_2
-- **Cả hai cùng trả lời threat model và ethics**: TODO_DEMO_ROLE_SHARED
+- **Demo Sender / kênh khóa / log gửi**: Đỗ Trung Kiên
+- **Demo Receiver / kênh dữ liệu / giải mã**: Nguyễn Việt Cường
+- **Cả hai cùng trả lời threat model và ethics**: Cả hai cùng phụ trách
 
 ---
 
@@ -182,6 +182,7 @@ pytest -q
 - `threat-model-1page.md`
 - `sample_input.txt`
 - `sample_output.txt`
+- `peer-review-response.md`
 
 ---
 
